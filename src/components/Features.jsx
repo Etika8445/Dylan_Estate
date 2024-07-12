@@ -13,9 +13,9 @@ const Features = () => {
         <div className='container-pro'>
           <div className='layout-pro'>
             <div className='nav-pro'>
-                <p>PROPERTY DETAILS</p>
-                <p>LOCATION DETAILS</p>
-                <p>FEATURES & AMENITIES</p>
+                <p style={{borderBottomColor:"#122B49", color:"#122B49"}}>PROPERTY DETAILS</p>
+                <p style={{borderBottomColor:"#122B49", color:"#122B49"}}>LOCATION DETAILS</p>
+                <p style={{color:"#122B49"}} className='detail-pro1'>FEATURES & AMENITIES</p>
                 <p>PRICE DETAILS</p>
                 <p>PROPERTY IMAGES</p>
             </div>
@@ -46,12 +46,12 @@ const Features = () => {
                         <hr></hr>
                         <p style={{paddingTop:"6%", fontWeight:"700"}}>SOCIETY AMENITIES</p>
                         <div className='amenities'>
-                            <div>
+                            <div className='pb-[20%]'>
                                 <img className='ml-9' src={security} alt="security"/>
                                 <p>24/7 Security</p>
                                 <input type="checkbox"/>
                             </div>
-                            <div>
+                            <div className='pb-[50%]'>
                                 <img className='ml-9' src={camera} alt="camera"/>
                                 <p>CCTV Camera</p>
                                 <input type="checkbox"/>

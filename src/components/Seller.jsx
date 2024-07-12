@@ -16,7 +16,7 @@ const Seller = () => {
                 <p>LOCATION DETAILS</p>
                 <p>FEATURES & AMENITIES</p>
                 <p>PRICE DETAILS</p>
-                <p>PROPERTY IMAGES</p>
+                <p className='show-pro'>PROPERTY IMAGES</p>
             </div>
             <div className='body-pro'>
                         <p style={{paddingTop:"5%"}} className='required1'>Property For :</p><br/>

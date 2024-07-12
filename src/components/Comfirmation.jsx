@@ -13,8 +13,8 @@ export const Comfirmation = () => {
         <p style={{paddingBottom:"4%"}}>Your listing will be reviewed and will go live within 24 hours.</p>
         <p style={{lineHeight:"200%"}}>We will now manage your listing and get in touch with you after finding the best suitable tenant as per your preference. 
         </p>
-        <p style={{padding:"10% 0 12% 0"}}>-Dylan Estates</p>
-        <button style={{marginRight:"5%"}}>Edit Property Listing</button>
+        <p style={{padding:"10% 0 12% 0", color:"#122B49"}}><i>-Dylan Estates</i></p>
+        <button style={{marginRight:"5%", marginBottom:"5%"}}>Edit Property Listing</button>
         <button onClick={update}>Preview Property Listing</button>
     </div>
   )

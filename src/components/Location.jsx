@@ -18,8 +18,8 @@ const Location = () => {
       <div className='container-pro'>
         <div className='layout-pro'>
           <div className='nav-pro'>
-            <p>PROPERTY DETAILS</p>
-            <p>LOCATION DETAILS</p>
+            <p style={{borderBottomColor:"#122B49", color:"#122B49"}}>PROPERTY DETAILS</p>
+            <p style={{color:"#122B49"}}  className='detail-pro1'>LOCATION DETAILS</p>
             <p>FEATURES & AMENITIES</p>
             <p>PRICE DETAILS</p>
             <p>PROPERTY IMAGES</p>
