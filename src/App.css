@@ -311,7 +311,7 @@ input[type="checkbox"]{
 /* confirmation */
 
 .layout-confirmation{
-  padding: 5% 40% 5% 10%;
+  padding: 140px 40% 5% 10%;
 }
 .layout-confirmation button{
   color: white;
@@ -349,7 +349,7 @@ input[type="checkbox"]{
     font-size: small;
   }
   .layout-confirmation{
-  padding: 5% 20% 5% 10%;
+  padding: 140px 20% 5% 10%;
   }
 }
 @media(max-width:599px){

@@ -1,6 +1,5 @@
 import React from 'react'
 import bell from '../shared/assets/bell.png'
-import '../components/ProLayoutStyle.css'
 const ProLayout = () => {
   return (
     <>
